@@ -10,7 +10,7 @@
     WebSiteSetting::GetTitle(); - получение title для страницы. Возвращает имя страницы из базы
     WebSiteSetting::GetIP(); - получение ip пользователя
     WebSiteSetting::RegisterConnect() - регистрация посещения пользователей
-    WebSiteSetting::Panel() - отображение панели управления( только для админестраторов)
+    WebSiteSetting::Panel() - отображение панели управления(только для админестраторов)
 }
 # footer
 {

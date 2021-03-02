@@ -47,3 +47,10 @@
     обязательные параметры
         $UserID
 }
+
+
+# lib
+{
+    crm\lib\bootstrap-4.0.0 - bootstrap-4.0.0
+    crm\lib\jquery-3.5.1 - jquery-3.5.1
+}

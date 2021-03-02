@@ -1,3 +1,3 @@
 <div class="container-fluid">
-    <a href="">В панель</a>
+    <a href="/crm/">В панель</a>
 </div>

@@ -50,7 +50,7 @@
 
 
 # lib
-{gvcvf
-    crm\lib\bootstrap-4.0.0 - bootstrap-4.0.0  href="/crm/lib/bootstrap-4.0.0/css/bootstrap.min.css"
-    crm\lib\jquery-3.5.1 - jquery-3.5.1  src="/crm/lib/jquery-3.5.1/jquery.js"
+{
+    crm\lib\bootstrap-4.0.0 - bootstrap-4.0.0 - href="/crm/lib/bootstrap-4.0.0/css/bootstrap.min.css"
+    crm\lib\jquery-3.5.1 - jquery-3.5.1 - src="/crm/lib/jquery-3.5.1/jquery.js"
 }

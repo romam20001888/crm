@@ -51,8 +51,8 @@
 
 # lib
 {
-    <link rel="stylesheet" href="/crm/lib/bootstrap-4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/crm/core/panel/style.css">
+    <!-- <link rel="stylesheet" href="/crm/lib/bootstrap-4.0.0/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="/crm/core/panel/style.css"> -->
     <script src="/crm/lib/jquery-3.5.1/jquery.js"></script>
     crm\lib\bootstrap-4.0.0 - bootstrap-4.0.0
     crm\lib\jquery-3.5.1 - jquery-3.5.1

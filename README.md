@@ -7,9 +7,10 @@
     /crm/website/header.php - файл для вёрстки header
 
     Функции
-    GetSettingWebSite::GetTitle(); - получение title для страницы. Возвращает имя страницы из базы
-    GetSettingWebSite::GetIP(); - получение ip пользователя
-    GetSettingWebSite::RegisterConnect() - регистрация посещения пользователей
+    WebSiteSetting::GetTitle(); - получение title для страницы. Возвращает имя страницы из базы
+    WebSiteSetting::GetIP(); - получение ip пользователя
+    WebSiteSetting::RegisterConnect() - регистрация посещения пользователей
+    WebSiteSetting::Panel() - отображение панели управления( только для админестраторов)
 }
 # footer
 {

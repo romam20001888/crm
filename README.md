@@ -50,7 +50,7 @@
 # Admin
 {
 
-    include $_SERVER['DOCUMENT_ROOT'].'/crm/core/panel/admin.php'; - вызвать компонет user
+    include $_SERVER['DOCUMENT_ROOT'].'/crm/core/panel/admin.php'; - вызвать компонет Admin
     Функции
 
     Admin::CheckAuth(); - проверка является ли теущий пользователь админестратором

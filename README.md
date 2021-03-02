@@ -34,11 +34,15 @@
     USER::Add(); - Добавление пользователя (Регистрация)
     обязательные параметры
         'LOGIN'=>"admin",
-        'PASSWORD'=>"admin"
+        'PASSWORD'=>"admin",
         'CHECKPASSWORD'=>"admin"
         
     USER::AuthUser(); - авторизация пользователей с сохранением куков
     обязательные параметры
         'LOGIN'=>"admin",
         'PASSWORD'=>"admin"
+
+    GetGroupUser(); - получение групп пользователя
+    обязательные параметры
+        $UserID
 }

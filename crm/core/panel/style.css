@@ -39,3 +39,13 @@
     color:red;
     font-weight: 600;
 }
+.adminBack{
+    position: absolute;
+    top:10px;
+    left:10px;
+    border:none;
+    background: none;
+}
+.adminBack:hover{
+    border-bottom: solid 3px grey;
+}

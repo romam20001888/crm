@@ -12,6 +12,7 @@
 </head>
 <body>
     <div class="adminAuth">
+    <input type="button" onclick="history.back();" value="Назад" class="adminBack"/>
         <div class="container p-5 formAdmin">
             <div class="errorMessage my-3">
 

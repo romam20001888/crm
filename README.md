@@ -42,7 +42,7 @@
         'LOGIN'=>"admin",
         'PASSWORD'=>"admin"
 
-    GetGroupUser(); - получение групп пользователя
+    USER::GetGroupUser(); - получение групп пользователя
     обязательные параметры
         $UserID
 }

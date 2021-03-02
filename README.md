@@ -47,7 +47,15 @@
     обязательные параметры
         $UserID
 }
+# Admin
+{
 
+    include $_SERVER['DOCUMENT_ROOT'].'/crm/core/panel/admin.php'; - вызвать компонет user
+    Функции
+
+    Admin::CheckAuth(); - проверка является ли теущий пользователь админестратором
+    
+}
 
 # lib
 {

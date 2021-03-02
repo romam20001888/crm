@@ -1,4 +1,12 @@
 <?include $_SERVER['DOCUMENT_ROOT'].'/crm/header.php';?>
+<?include $_SERVER['DOCUMENT_ROOT'].'/crm/core/panel/admin.php';?>
+
+<script>
+    if(<?=Admin::CheckAuth();?>==true){
+        window.location.replace('/crm/core/panel/');
+    }
+</script>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +23,7 @@
     <input type="button" onclick="history.back();" value="Назад" class="adminBack"/>
         <div class="container p-5 formAdmin">
             <div class="errorMessage my-3">
-
+            
             </div>
             <input type="text" class="inputAuthAdmin" name="login" id="login" placeholder="Логин" >
             <input type="password" class="inputAuthAdmin" name="password" id="password" placeholder="Пароль" >

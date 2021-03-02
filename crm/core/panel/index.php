@@ -1,0 +1,1 @@
+<input type="button" onclick="history.back();" value="Назад" class="adminBack"/>
